@@ -3,6 +3,7 @@
 mod close;
 mod create;
 mod lamport;
+mod resize;
 mod system;
 
-pub use {close::*, create::*, lamport::*, system::*};
+pub use {close::*, create::*, lamport::*, resize::*, system::*};
